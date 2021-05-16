@@ -1,0 +1,5 @@
+word=input('请输入字母')
+words=word.upper()
+file = open ('D://2.txt','w')
+file.write(words)
+file.close()
